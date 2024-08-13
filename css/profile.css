@@ -1,0 +1,24 @@
+body{
+    width: 100%;
+    text-align: center;
+}
+
+table, td{
+    width: 100%;
+    border: 1px solid #000;
+    border-collapse: collapse;
+
+    & td{
+        padding: 0 20px;
+    }
+}
+
+.tb-leftside{
+    width: 50%;
+    text-align: right;
+}
+
+.tb-rightside{
+    width: 50%;
+    text-align: left;
+}
