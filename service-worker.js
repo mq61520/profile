@@ -3,9 +3,9 @@ self.addEventListener('install', (event) => {
       caches.open('v1').then((cache) => {
         return cache.addAll([
           '/',
-          '../html/ProfileProMax.html',
-          '../css/ProfileProMax.css',
-          '../js/main.js'
+          '/index.html',
+          '/ProfileProMax.css',
+          '/main.js'
         ]);
       })
     );

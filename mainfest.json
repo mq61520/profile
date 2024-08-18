@@ -1,6 +1,6 @@
 {
     "name": "Giới thiệu bản thân",
     "short_name": "Profile",
-    "start_url": "../html/ProfileProMax.html",
+    "start_url": "/index.html",
     "display": "strandalone"
 }
