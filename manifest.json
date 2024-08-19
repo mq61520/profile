@@ -2,5 +2,18 @@
     "name": "Giới thiệu bản thân",
     "short_name": "Profile",
     "start_url": "/profile.github.io/index.html",
-    "display": "standalone"
+    "display": "fullscreen",
+    "form_factor": "wide",
+    "icon":[
+        {
+            "src": "/profile.github.io/icon1.jpg",
+            "size": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/profile.github.io/icon1.jpg",
+            "size": "512x512",
+            "type": "image/png"
+        }
+    ]
 }
