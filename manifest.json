@@ -1,9 +1,7 @@
 {
     "name": "Giới thiệu bản thân",
     "short_name": "Profile",
-    "start_url": "/",
-    "display": "standalone",
-    "orientation": "any",
+    "start_url": "/profile.github.io/index.html",
     "icon":[
         {
             "src": "/profile.github.io/icon-192x192.png",
