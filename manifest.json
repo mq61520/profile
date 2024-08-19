@@ -2,10 +2,11 @@
     "name": "Giới thiệu bản thân",
     "short_name": "Profile",
     "start_url": "/profile.github.io/index.html",
+    "theme_color": "#3367D6",
     "icons":[
         {
             "src": "/profile.github.io/icon-192x192.png",
-            "sizes": "144x144",
+            "sizes": "192x192",
             "type": "image/png"
         },
         {
