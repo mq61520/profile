@@ -6,12 +6,12 @@
     "orientation": "any",
     "icon":[
         {
-            "src": "/icon-192x192.png",
+            "src": "./icon-192x192.png",
             "size": "144x144",
             "type": "image/png"
         },
         {
-            "src": "/icon-512x512.png",
+            "src": "./icon-512x512.png",
             "size": "512x512",
             "type": "image/png"
         }
