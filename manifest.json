@@ -3,7 +3,7 @@
     "short_name": "Profile",
     "start_url": "/profile.github.io/index.html",
     "display": "fullscreen",
-    "form_factor": "wide",
+    "orientation": "any",
     "icon":[
         {
             "src": "/icon-192x192.png",
