@@ -1,6 +1,6 @@
 {
     "name": "Giới thiệu bản thân",
     "short_name": "Profile",
-    "start_url": "/index.html",
+    "start_url": "/profile.github.io/index.html",
     "display": "strandalone"
 }
