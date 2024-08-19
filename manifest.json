@@ -8,12 +8,14 @@
         {
             "src": "/profile.github.io/icon-192x192.png",
             "size": "144x144",
-            "type": "image/png"
+            "type": "image/png",
+            "form_factor": "tall"
         },
         {
             "src": "/profile.github.io/icon-512x512.png",
             "size": "512x512",
-            "type": "image/png"
+            "type": "image/png",
+            "form_factor": "wide"
         }
     ]
 }
