@@ -32,12 +32,12 @@
 
 const staticCacheName = 'v1';
 const filesToCache = [
-  '/profile.github.io/',
-  '/profile.github.io/index.html',
-  '/profile.github.io/style.css',
-  '/profile.github.io/script.js',
-  '/profile.github.io/icon-192x192.png',
-  '/profile.github.io/icon-512x512.png'
+  './',
+  './index.html',
+  './style.css',
+  './script.js',
+  './icon-192x192.png',
+  './icon-512x512.png'
 ];
 
 self.addEventListener('install', (event) => {
