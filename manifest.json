@@ -8,8 +8,7 @@
         {
             "src": "/profile.github.io/icon-192x192.png",
             "size": "144x144",
-            "type": "image/png",
-            "form_factor": "tall"
+            "type": "image/png"
         },
         {
             "src": "/profile.github.io/icon-512x512.png",
