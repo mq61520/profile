@@ -16,5 +16,6 @@
             "type": "image/png",
             "form_factor": "wide"
         }
-    ]
+    ],
+    "service_worker": "/profile.github.io/service-worker.js"
 }
