@@ -8,6 +8,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/profile.github.io/style.css">
     <link rel="manifest" href="/profile.github.io/manifest.json">
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/profile.github.io/service-worker.js')
+                .then((registration) => {
+                console.log('Service Worker registered:', registration);
+                })
+                .catch((error) => {
+                console.error('Service Worker registration failed:', error);
+                });
+            });
+        }
+    </script>
 </head>
 <body>
     <div class="body-content">
