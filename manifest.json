@@ -6,12 +6,12 @@
     "form_factor": "wide",
     "icon":[
         {
-            "src": "/profile.github.io/icon1.jpg",
+            "src": "/icon-192x192.png",
             "size": "144x144",
             "type": "image/png"
         },
         {
-            "src": "/profile.github.io/icon1.jpg",
+            "src": "/icon-512x512.png",
             "size": "512x512",
             "type": "image/png"
         }

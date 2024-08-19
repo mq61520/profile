@@ -5,7 +5,9 @@ self.addEventListener('install', (event) => {
           '/profile.github.io/',
           '/profile.github.io/index.html',
           '/profile.github.io/style.css',
-          '/profile.github.io/main.js'
+          '/profile.github.io/main.js',
+          '/profile.github.io/icon-192x192.png',
+          '/profile.github.io/icon-512x512.png'
         ]);
       })
     );
