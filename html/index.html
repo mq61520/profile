@@ -6,13 +6,13 @@
     <meta name="theme-color" content="#000000">
     <title>About me</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="manifest" href="./manifest.json">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="manifest" href="../manifest.json">
 
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('./service-worker.js')
+                navigator.serviceWorker.register('../service-worker.js')
                 .then((registration) => {
                     console.log('Service Worker registered:', registration);
                 })
@@ -26,16 +26,14 @@
 <body>
     <div class="body-content">
         <div class="sidebar">
-            <div>
-                <div>
-                    <img src="https://cellphones.com.vn/sforum/wp-content/uploads/2024/01/avartar-anime-43.jpg" alt="My avatar"/>
-                </div>
-    
-                <nav>
-                    <a class="nav-item" href=""><span>ABOUT ME</span></a>
-                    <a class="nav-item" href="#edu"><span>EDUCATION</span></a>
-                    <a class="nav-item" href="#projects"><span>PERSIONAL PROJECTS</span></a>
-                </nav>
+            <div class="img-div">
+                <img src="https://cellphones.com.vn/sforum/wp-content/uploads/2024/01/avartar-anime-43.jpg" alt="My avatar"/>
+            </div>
+
+            <div class="nav-items">
+                <a class="nav-item" href=""><span>ABOUT ME</span></a>
+                <a class="nav-item" href="#edu"><span>EDUCATION</span></a>
+                <a class="nav-item" href="#projects"><span>PERSIONAL PROJECTS</span></a>
             </div>
         </div>
 

@@ -1,0 +1,332 @@
+html {
+    font-family: 'Hack', Courier, monospace;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 1920px){  
+    .body-content {
+        position: relative;
+        top: 0;
+        height: 100vh;
+        overflow: hidden;
+    }
+    
+    .sidebar {
+        height: 100vh;
+        position: fixed;
+        width: 25%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+        & img {
+            width: 16rem;
+            height: 16rem;
+            border: 0.8rem solid #eee;
+            border-radius: 50%;
+        }
+    
+        & .nav-item {
+            font-size: 1.5rem;
+            display: block;
+            color: #333;
+            margin: 4rem 0;
+            text-decoration: none;
+        }
+        
+        & .nav-item:hover {
+            background-image: linear-gradient(to bottom left, #EA8D8D, #A890FE);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+    
+    .contents {
+        background-color: white;
+        width: 75%;
+        float: right;
+        
+        & .content-item {
+            min-height: 100vh;
+            margin-left: 5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+    
+    #about {
+    
+        & span {
+            font-size: 6rem;
+            font-weight: bold;
+            background-image: linear-gradient(to bottom left, #EA8D8D, #A890FE);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    
+        & h4, p {
+            color: #333;
+        }
+    
+        & h4 {
+            margin-block-start: 0;
+        }
+    
+        & p {
+            width: 50rem;
+            margin-top: 30px;
+            line-height: 24px;
+        }
+    
+        & .social-links {
+            width: 250px;
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-between;
+        }
+    
+        & i {
+            font-size: 50px;
+        }
+    }
+    
+    #edu {
+        color: #333;
+    
+        & h2 {
+            font-size: 46px;
+        }
+    
+        & .edu-location {
+            width: 940px;
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+    
+            & h3 {
+                font-size: 28px;
+                margin-block-start: 0;
+                margin-block-end: 0;
+            }
+    
+            & span {
+                background-image: linear-gradient(to bottom left, #EA8D8D, #A890FE);
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+    
+        & h5 {
+            color: #777;
+            font-size: 16px;
+            margin-block-start: 10px;
+        }
+    
+        & span {
+            font-size: 20px;
+        }
+    }
+    
+    #projects {
+        color: #333;
+    
+        & h2 {
+            font-size: 46px;
+        }
+    
+        & .project-date {
+            width: 940px;
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+    
+            & h3 {
+                font-size: 28px;
+                margin-block-start: 0;
+                margin-block-end: 0;
+            }
+    
+            & span {
+                background-image: linear-gradient(to bottom left, #EA8D8D, #A890FE);
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+    
+        & h5 {
+            color: #777;
+            font-size: 16px;
+            margin-block-start: 10px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .body-content {
+        width: 100%;
+    }
+    
+    .sidebar {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: red;
+
+        & .img-div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 0 0.5rem;
+        }
+        
+        & img {
+            width: 6rem;
+            height: 6rem;
+            border: 0.5rem solid #eee;
+            border-radius: 50%;
+        }
+
+        & .nav-items {
+            flex: 1;
+            display: flex;
+            justify-content: space-between;
+        }
+    
+        & .nav-item {
+            font-size: 0.8rem;
+            color: #333;
+            text-decoration: none;
+        }
+        
+        & .nav-item:hover {
+            background-image: linear-gradient(to bottom left, #EA8D8D, #A890FE);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+    
+    .contents {
+        width: 100%;
+        height: auto;
+        background-color: #777;
+        
+        & .content-item {
+            margin: 0 20px;
+        }
+    }
+    
+    #about {
+        text-align: center;
+        & span {
+            font-size: 2.4rem;
+            font-weight: bold;
+            background-image: linear-gradient(to bottom left, #EA8D8D, #A890FE);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    
+        & h4, p {
+            color: #333;
+        }
+    
+        & h4 {
+            margin-top: 20px !important;
+            margin-block-start: 0;
+            margin-block-end: 0;
+        }
+    
+        & p {
+            width: 100%;
+        }
+    
+        & .social-links {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+    
+        & i {
+            font-size: 3rem;
+            background-image: linear-gradient(to bottom left, #EA8D8D, #A890FE);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+    
+    #edu {
+        color: #333;
+    
+        & h2 {
+            
+        }
+    
+        & .edu-location {
+            
+    
+            & h3 {
+                
+                margin-block-start: 0;
+                margin-block-end: 0;
+            }
+    
+            & span {
+                background-image: linear-gradient(to bottom left, #EA8D8D, #A890FE);
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+    
+        & h5 {
+            color: #777;
+            font-size: 16px;
+            margin-block-start: 10px;
+        }
+    
+        & span {
+            font-size: 20px;
+        }
+    }
+    
+    #projects {
+        color: #333;
+    
+        & h2 {
+            font-size: 46px;
+        }
+    
+        & .project-date {
+            
+    
+            & h3 {
+                font-size: 2.8px;
+                margin-block-start: 0;
+                margin-block-end: 0;
+            }
+    
+            & span {
+                background-image: linear-gradient(to bottom left, #EA8D8D, #A890FE);
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+    
+        & h5 {
+            color: #777;
+            font-size: 16px;
+            margin-block-start: 10px;
+        }
+    }
+}
