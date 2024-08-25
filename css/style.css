@@ -14,7 +14,7 @@ body {
         position: relative;
         top: 0;
         height: 100vh;
-        overflow: hidden;
+        overflow: auto;
     }
     
     .sidebar {
@@ -171,7 +171,7 @@ body {
 
 @media only screen and (max-width: 768px){
     .body-content {
-        width: 100%;
+        max-width: 768px;
     }
     
     .sidebar {
@@ -228,7 +228,9 @@ body {
     .contents {
         width: 100%;
         height: 90vh;
-        overflow: hidden;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        /* background-color: #EA8D8D; */
         
         & .content-item {
             margin: 0 20px;

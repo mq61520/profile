@@ -2,12 +2,12 @@ self.addEventListener('install', (event) => {
     event.waitUntil(
       caches.open('v1').then((cache) => {
         return cache.addAll([
-          './',
-          './html//index.html',
-          './css//style.css',
-          './js//main.js',
-          './public/icon-192x192.png',
-          './public//icon-512x512.png'
+          '../',
+          '../html/index.html',
+          '../css/style.css',
+          '../js/main.js',
+          '../public/icon-192x192.png',
+          '../public/icon-512x512.png'
         ]);
       })
     );
