@@ -1,5 +1,5 @@
 html {
-    font-family: 'Hack', Courier, monospace;
+    font-family: 'Roboto', Courier, monospace;
     scroll-behavior: smooth;
     box-sizing: border-box;
 }
@@ -178,13 +178,14 @@ body {
         position: fixed;
         bottom: 0;
         width: 100%;
-        height: 15%;
+        height: 10vh;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        /* background-color: red; */
-        background-color: rgba(45,12,84,.6);
+        /* background-color: rgb(45,12,84); */
+        background-image: linear-gradient(to bottom left, #EA8D8D, #A890FE);
+        /* background-clip: border-box; */
 
         & .img-div {
             display: flex;
@@ -194,9 +195,9 @@ body {
         }
         
         & img {
-            width: 4rem;
-            height: 4rem;
-            border: 0.5rem solid #eee;
+            width: 3rem;
+            height: 3rem;
+            border: 0.2rem solid #eee;
             border-radius: 50%;
         }
 
@@ -217,15 +218,17 @@ body {
         }
         
         & .nav-item:hover {
-            background-image: linear-gradient(to bottom left, #EA8D8D, #A890FE);
+            color: #333;
+            /* background-image: linear-gradient(to bottom left, #EA8D8D, #A890FE);
             background-clip: text;
-            -webkit-text-fill-color: transparent;
+            -webkit-text-fill-color: transparent; */
         }
     }
     
     .contents {
         width: 100%;
-        background-color: #777;
+        height: 90vh;
+        overflow: hidden;
         
         & .content-item {
             margin: 0 20px;
