@@ -25,10 +25,11 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        background-image: linear-gradient(to bottom left, #EA8D8D, #A890FE);
         
         & img {
-            width: 16rem;
-            height: 16rem;
+            width: 14rem;
+            height: 14rem;
             border: 0.8rem solid #eee;
             border-radius: 50%;
         }
@@ -36,15 +37,22 @@ body {
         & .nav-item {
             font-size: 1.5rem;
             display: block;
-            color: #333;
+            color: #eee;
             margin: 4rem 0;
             text-decoration: none;
         }
         
-        & .nav-item:hover {
+        /* & .nav-item:hover {
             background-image: linear-gradient(to bottom left, #EA8D8D, #A890FE);
             background-clip: text;
             -webkit-text-fill-color: transparent;
+        } */
+
+        & .nav-item:visited {
+            color: #eee;
+            /* background-image: linear-gradient(to bottom left, #EA8D8D, #A890FE);
+            background-clip: text;
+            -webkit-text-fill-color: transparent; */
         }
     }
     
@@ -219,6 +227,13 @@ body {
         
         & .nav-item:hover {
             color: #333;
+            /* background-image: linear-gradient(to bottom left, #EA8D8D, #A890FE);
+            background-clip: text;
+            -webkit-text-fill-color: transparent; */
+        }
+
+        & .nav-item:visited {
+            color: #eee;
             /* background-image: linear-gradient(to bottom left, #EA8D8D, #A890FE);
             background-clip: text;
             -webkit-text-fill-color: transparent; */
